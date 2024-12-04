@@ -4,29 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reformulação do AIChE-Maringá</title>
+    <style>
+        /* Estilo geral */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f5ff;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #6dd5fa, #3498db);
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            text-align: center;
+            margin: 0;
+            padding: 15px;
+            background-color: #2ecc71;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 0;
+        }
+        section {
+            padding: 60px 20px;
+            margin: 20px auto;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 1200px;
+        }
+        /* Introdução */
+        #introducao {
+            background: linear-gradient(135deg, #f7b42c, #fc575e);
+        }
+        /* Sobre (nova cor de fundo) */
+        #sobre {
+            background: linear-gradient(135deg, #9b59b6, #8e44ad); /* Roxo moderno */
+            color: #f8f8f8;
+        }
+        /* Proposta */
+        #proposta {
+            background: linear-gradient(135deg, #92fe9d, #00c9ff);
+        }
+        /* Anexos (nova cor de fundo) */
+        #anexos {
+            background: linear-gradient(135deg, #f1c40f, #f39c12); /* Amarelo vibrante */
+            color: #2c3e50;
+        }
+        /* Contato */
+        #contato {
+            background: linear-gradient(135deg, #f6d365, #fda085);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Botões de download */
+        a.download-button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px;
+            background-color: white;
+            color: #3498db;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        a.download-button:hover {
+            background-color: #3498db;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
-    <header style="text-align: center; padding: 20px; background-color: #f4f4f4;">
+    <header>
         <h1>Reformulação do AIChE-Maringá</h1>
         <p>Uma nova identidade para refletir os valores e objetivos da instituição</p>
     </header>
-    <nav style="text-align: center; margin: 20px 0;">
-        <a href="#introducao" style="margin: 0 10px;">Introdução</a>
-        <a href="#sobre" style="margin: 0 10px;">Sobre</a>
-        <a href="#proposta" style="margin: 0 10px;">Proposta</a>
-        <a href="#anexos" style="margin: 0 10px;">Anexos</a>
-        <a href="#contato" style="margin: 0 10px;">Contato</a>
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#proposta">Proposta</a>
+        <a href="#anexos">Anexos</a>
+        <a href="#contato">Contato</a>
     </nav>
-    <main style="padding: 20px;">
+    <main>
         <section id="introducao">
             <h2>Introdução</h2>
-            <p>Neste projeto, os membros terão a desafiadora e importante tarefa de reformular a identidade do AIChE-Maringá, trazendo uma nova cara que reflita sobre os valores e objetivos dentro da instituição.</p>
+            <p>Neste projeto, os membros terão a desafiadora e importante tarefa de reformular a identidade do AIChE-Maringá, trazendo uma nova cara que reflita os valores e objetivos dentro da instituição.</p>
         </section>
-        <section id="sobre" style="margin-top: 40px;">
+        <section id="sobre">
             <h2>Sobre o AIChE-Maringá</h2>
             <p>A identidade é uma forma de como as pessoas, tanto externas quanto internas, veem a instituição. Este projeto visa criar uma nova visão, incluindo cores, mascote, logotipo, camisetas e produtos atualizados.</p>
         </section>
-        <section id="proposta" style="margin-top: 40px;">
+        <section id="proposta">
             <h2>Proposta de Reformulação</h2>
             <p>Aqui está a nossa visão para a nova identidade do AIChE-Maringá:</p>
             <ul>
@@ -35,12 +131,14 @@
                 <li>Atualização do logotipo para um design mais clean e versátil.</li>
             </ul>
         </section>
-        <section id="anexos" style="margin-top: 40px;">
+        <section id="anexos">
             <h2>Anexos</h2>
-            <p>Clique no botão abaixo para baixar o arquivo com as nossas ideias detalhadas.</p>
-            <a href="logo fundo verde.png" download style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Baixar Anexo</a>
+            <p>Clique nos botões abaixo para baixar os arquivos:</p>
+            <a href="logo fundo verde.png" download class="download-button">Baixar Logotipo</a>
+            <a href="mascote.png" download class="download-button">Baixar Mascote</a>
+            <a href="caneca.png" download class="download-button">Baixar Paleta de Cores</a>
         </section>
-        <section id="contato" style="margin-top: 40px;">
+        <section id="contato">
             <h2>Contato</h2>
             <p>Entre em contato conosco para mais informações:</p>
             <ul>
@@ -49,8 +147,9 @@
             </ul>
         </section>
     </main>
-    <footer style="text-align: center; padding: 20px; background-color: #f4f4f4; margin-top: 20px;">
+    <footer>
         <p>&copy; 2024 AIChE-Maringá. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
+
